@@ -1,3 +1,3 @@
 // Implement and export the sum() function here
 
-modules.export = (a, b) => a + b;
+module.exports = (a, b) => a + b;

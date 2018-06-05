@@ -1,5 +1,9 @@
 language: node_js
+node_js:
+  - "9.4"
+before_install:
+  - cd calculator
 install:
-  - cd calculator && npm install
+  - npm install
 script:
   - npm run test

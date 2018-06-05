@@ -1,0 +1,5 @@
+language: node_js
+install:
+  - cd calculator && npm install
+script:
+  - cd calculator && npm run test
